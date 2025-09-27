@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Environments
+.env
+.venv
+env/
+
+# Datasets (large files)
+creditcard.csv
+
+# Models (if large)
+models/*.pkl  # Remove this if you want to commit small models
