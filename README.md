@@ -44,15 +44,11 @@ This enhances basic tree models, achieving robust performance on the Kaggle Cred
 3. The notebook saves trained models (e.g., `ensemble.pkl`) for deployment.
 
 ### Deployment
-- Run the Streamlit app: `streamlit run app.py`
-- Enter transaction details in the sidebar and click "Detect Fraud" for predictions.
-- For production, deploy to Streamlit Cloud or Heroku.
+- Run the Gradio
 
 ## Project Structure
 - `credit_card_fraud_detection.ipynb`: Full workflow notebook.
-- `app.py`: Streamlit web app for interactive fraud detection.
 - `requirements.txt`: Python dependencies.
-- `models/`: Directory for saved models (generated after running the notebook).
 - `.gitignore`: Ignores large files like datasets and virtualenvs.
 
 ## Results
